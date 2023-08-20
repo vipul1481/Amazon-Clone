@@ -4,8 +4,17 @@
     margin-right: auto;
 }
 
+.home_row {
+    display: flex;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
 .home_image {
     width: 100%;
     -webkit-mask-image: linear-gradient(black, transparent);
     mask-image: linear-gradient(black, transparent); 
+    z-index: -1;
+    margin-bottom: -150px;
 }
