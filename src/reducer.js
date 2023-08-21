@@ -1,5 +1,23 @@
 export const initialState = {
-  basket: [],
+  basket: [
+    {
+      id: "2455423",
+      title: "New Apple iPad Pro - Silver",
+      price: 598.99,
+      rating: 4,
+      image:
+        "https://m.media-amazon.com/images/I/81gC7frRJyL._AC_UY327_FMwebp_QL65_.jpg",
+    },
+    {
+      id: "2455423",
+      title: "New Apple iPad Pro - Silver",
+      price: 598.99,
+      rating: 4,
+      image:
+        "https://m.media-amazon.com/images/I/81gC7frRJyL._AC_UY327_FMwebp_QL65_.jpg",
+    },
+  ],
+  user: null,
 };
 
 function reducer(state, action) {
@@ -15,7 +33,22 @@ function reducer(state, action) {
 
     case "REMOVE_FROM_BASKET":
       //Logic for Removing item from Basket
-      break;
+      // cloned the basket
+      let newBasket = [...state.basket];
+
+      const index = state.basket.findIndex(
+        (basketItem) => basketItem.id === action.id
+      );
+      if (index >= 0) {
+        // item exit in basket , remove it ......
+        newBasket.splice(index, 1);
+      } else {
+        console.warn(
+          "Cant remove product (id: ${action.id}) as its not in basket"
+        );
+      }
+
+      return { ...state, basket: newBasket };
     default:
       return state;
   }
