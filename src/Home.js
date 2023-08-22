@@ -14,21 +14,21 @@ function Home() {
       <div className="home_row">
         <Product
           id="12344321"
-          title="The dash of dash is dash"
-          price={11.96}
+          title="Apple MacBook Pro M2 Chip (13-inch, 16GB RAM, 256GB SSD Storage) - Space Gray (2022 Model) - Z16R0005S"
+          price={1100}
           rating={5}
-          image="https://m.media-amazon.com/images/I/41Ag4WE7uyL._SY291_BO1,204,203,200_QL40_FMwebp_.jpg"
+          image="https://m.media-amazon.com/images/I/61L5QgPvgqL._AC_UY327_FMwebp_QL65_.jpg"
         />
         <Product
           id="12344321"
-          title="The dash of dash is dash"
-          price={11.96}
-          rating={5}
-          image="https://m.media-amazon.com/images/I/41Ag4WE7uyL._SY291_BO1,204,203,200_QL40_FMwebp_.jpg"
+          title="Origin: A Novel"
+          price={8}
+          rating={4}
+          image="https://m.media-amazon.com/images/I/51LvRvp2AiL._SX319_BO1,204,203,200_.jpg"
         />
         <Product
           id="12344321"
-          title="The dash of dash is dash"
+          title="Apple Watch"
           price={1000}
           rating={5}
           image="https://m.media-amazon.com/images/I/71c7GQvm79L._AC_SX522_.jpg"
@@ -37,23 +37,24 @@ function Home() {
       <div className="home_row">
         <Product
           id="12344321"
-          title="The dash of dash is dash"
-          price={11.96}
+          title="Nike Women's Gymnastics Shoes"
+          price={800}
           rating={5}
-          image="https://m.media-amazon.com/images/I/41Ag4WE7uyL._SY291_BO1,204,203,200_QL40_FMwebp_.jpg"
+          image="https://m.media-amazon.com/images/I/51mNlxDSv1L._AC_UL600_FMwebp_QL65_.jpg"
         />
         <Product
           id="12344321"
-          title="The dash of dash is dash"
-          price={11.96}
+          title="
+          Apple AirPods Max Wireless Over-Ear Headphones. Active Noise Cancelling, Transparency Mode, Spatial Audio, Digital Crown for Volume Control. Bluetooth Headphones for iPhone - Silver"
+          price={250}
           rating={5}
-          image="https://m.media-amazon.com/images/I/41Ag4WE7uyL._SY291_BO1,204,203,200_QL40_FMwebp_.jpg"
+          image="https://m.media-amazon.com/images/I/71xEVEjRHWL._AC_UY327_FMwebp_QL65_.jpg"
         />
       </div>
       <div className="home_row">
         <Product
           id="12344321"
-          title="The dash of dash is dash"
+          title="The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses"
           price={11.96}
           rating={5}
           image="https://m.media-amazon.com/images/I/41Ag4WE7uyL._SY291_BO1,204,203,200_QL40_FMwebp_.jpg"
