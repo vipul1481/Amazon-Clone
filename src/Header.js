@@ -33,7 +33,8 @@ function Header() {
         <Link to="/login" className="header_link">
           <div className="header_option">
             <span className="header_optionLineOne">Hello</span>
-            <span className="header_optionLineTwo">Sign In</span>
+            
+            <span className="header_optionLineTwo">Log In</span>
           </div>
         </Link>
         {/* 2 st link */}

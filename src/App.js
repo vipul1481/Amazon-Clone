@@ -12,7 +12,7 @@ function App() {
         <Routes>
           <Route path="/checkout" element={[<Header/>,<Checkout/>]} />
 
-          <Route path="/login" component={<Login/>} />
+          <Route path="/login" element={[<Login/>]} />
 
           <Route path="/" element={[<Header/>,<Home/>]} />
           
